@@ -6,8 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './page/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-
-
+import { BrowserRouter, Route, Link, NavLink, Switch} from "react-router-dom";
 
 ReactDOM.render(
   <BrowserRouter>
