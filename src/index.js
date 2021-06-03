@@ -10,11 +10,15 @@ import Footer from './components/Footer'
 
 
 ReactDOM.render(
-  
+  <BrowserRouter>
+  <Navbar></Navbar>
+   </BrowserRouter>,
   <React.StrictMode>
-    <App />
+    <Home />
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById('root'),
+  <Footer></Footer>
+
 );
 
 reportWebVitals();
