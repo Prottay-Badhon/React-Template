@@ -7,16 +7,12 @@ import Home from './page/Home'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.render(
-  <BrowserRouter>
-  <Navbar></Navbar>
-   </BrowserRouter>,
-  <Footer></Footer>,
+  
   <React.StrictMode>
-    <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

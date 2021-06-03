@@ -15,7 +15,7 @@ class Home extends Component {
     render() {
         return (
             <>
-           
+         
             <div>
                         <div class="section1Content align-items-center d-flex justify-content-center">
                         <img src={universe}></img>
@@ -34,7 +34,6 @@ class Home extends Component {
       <OurService></OurService>
       <AboutUs></AboutUs>
       <SubService></SubService>
-
             </>
         );
     }
