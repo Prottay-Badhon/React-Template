@@ -49,7 +49,7 @@ class Navbar extends Component {
                     <i className={this.state.click ? "fas fa-times": "fas fa-bars" }></i>
                    </div>
                    <ul className={this.state.click? "activeStyle":"my-nav-menu"}>
-                    <li><NavLink to="/">Home</NavLink></li>
+                    <li><NavLink to="/home">Home</NavLink></li>
                     <li><NavLink to="/aboutUs" activeStyle={{fontWeight: "bold",color: "red"}}>About Us</NavLink></li>
 
                     <li><NavLink to="/contactUs"  activeStyle={{fontWeight: "bold",color: "red"}}>Contact</NavLink></li>
@@ -84,7 +84,7 @@ class Navbar extends Component {
                    </div>
                    */}
                    <Switch>
-                        <Route exact path='/' component={Home}></Route>
+                        <Route exact path='/home' component={Home}></Route>
                         <Route exact path='/aboutUs' component={AboutUsPage}></Route>
                         <Route exact path='/contactUs' component={ContactUsPage}></Route>
                         <Route exact path='/blog' component={BlogPage}></Route>
