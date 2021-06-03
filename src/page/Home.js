@@ -7,10 +7,17 @@ import AboutUs from "../components/AboutUs"
 import Features from "../components/Features"
 import SubService from "../components/SubService"
 import universe from '../image/universe.jpg'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import { BrowserRouter } from 'react-router-dom';
+
 class Home extends Component {
     render() {
         return (
             <>
+            <BrowserRouter>
+            <Navbar></Navbar>
+            </BrowserRouter>
             <div>
                         <div class="section1Content align-items-center d-flex justify-content-center">
                         <img src={universe}></img>
@@ -29,6 +36,8 @@ class Home extends Component {
       <OurService></OurService>
       <AboutUs></AboutUs>
       <SubService></SubService>
+     <Footer></Footer>
+
             </>
         );
     }
