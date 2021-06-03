@@ -9,7 +9,7 @@ import Service from '../page/Service'
 import BlogPage from "../page/Blog"
 
 import universe from "../image/universe.jpg"
-import { BrowserRouter, Route, Link, NavLink, Switch} from "react-router-dom";
+import { BrowserRouter, Route, Link, NavLink, Switch} from "react-router-dom"; 
 import Home from '../page/Home';
 
 
