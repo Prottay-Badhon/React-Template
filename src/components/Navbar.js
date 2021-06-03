@@ -83,7 +83,7 @@ class Navbar extends Component {
                     </ul>
                    </div>
                    */}
-                        <Route exact path='/' component={Home}></Route>
+                        <Route exact path='/'></Route>
                         <Route exact path='/aboutUs' component={AboutUsPage}></Route>
                         <Route exact path='/contactUs' component={ContactUsPage}></Route>
                         <Route exact path='/blog' component={BlogPage}></Route>
