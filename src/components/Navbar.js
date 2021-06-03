@@ -9,7 +9,7 @@ import Service from '../page/Service'
 import BlogPage from "../page/Blog"
 
 import universe from "../image/universe.jpg"
-import { BrowserRouter, Route, Link, NavLink} from "react-router-dom";
+import { BrowserRouter, Route, Link, NavLink, Switch} from "react-router-dom";
 import Home from '../page/Home';
 
 
@@ -83,13 +83,14 @@ class Navbar extends Component {
                     </ul>
                    </div>
                    */}
-                        <Route exact path='/'></Route>
+                   <Switch>
+                        <Route exact path='/' component={Home}></Route>
                         <Route exact path='/aboutUs' component={AboutUsPage}></Route>
                         <Route exact path='/contactUs' component={ContactUsPage}></Route>
                         <Route exact path='/blog' component={BlogPage}></Route>
                         <Route exact path='/service' component={Service}></Route>
 
-
+                     </Switch>
 
                     {/*
 
