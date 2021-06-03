@@ -1,0 +1,109 @@
+.blogPage .searchDiv{
+    position: relative;
+}
+.blogPage .search{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+.blogPage .searchDiv input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+.blogPage .searchDiv .fa-search{
+    cursor: pointer;
+    font-size: 20px;
+    color: rgb(231, 235, 18);
+}
+.whatIDo_ul li{
+    border-bottom: 1px solid rgb(230, 228, 228);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    cursor: pointer;
+
+}
+.whatIDo_ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+.whatIDo_ul li:hover{
+    color: black;
+
+}
+.blogPage .buttonDiv{
+    padding: 0;
+}
+.blogPage .buttonDiv li{
+        display: inline-block;
+        padding: 5px;
+}
+.blogPage .buttonDiv button{
+    background: white;
+    border-radius: 5px;
+    border: none;
+    height: 35px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.blogPage .buttonDiv button:hover{
+    background: rgb(202, 206, 8);
+    cursor: pointer;
+    color: white;
+    transition: .3s;
+}
+.commentReply button{
+    background: rgb(202, 206, 8);
+    border-radius: 5px;
+    border: none;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    color: white;
+    font-size: 14px;
+}
+.commentReply button:hover{
+    background: black;
+    transition: .5s;
+
+}
+.blogPage  textarea{
+border: 1px solid rgb(226, 223, 223);
+border-radius: 0%;
+outline: none;
+width: 100%;
+padding-top: 5px;
+padding-bottom: 7px;
+
+}
+.commentPost button{
+    background: rgb(202, 206, 8);
+    border: none;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    color: white;
+    font-size: 14px;
+    padding: 1rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.commentReply .media-body .fa{
+    font-size: 13px;
+}
+.tag-cloud button{
+    color:rgb(153, 151, 151)
+}
+
+@media(max-width:991px){
+    .searchDiv{
+        margin-top: 2rem;
+    }
+    .blogPage .searchDiv input:focus{
+      
+        border-left: 1px solid rgb(202, 206, 8);
+
+    }
+}

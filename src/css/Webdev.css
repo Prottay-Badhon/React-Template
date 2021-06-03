@@ -1,0 +1,31 @@
+.webdev{
+    margin-top:200px
+}
+.webdev .card{
+    border-radius: 10px;
+    position: relative;
+}
+.webdev .card img{
+    border-radius: 10px 10px 0px 0px;
+}
+.webdev .card .cardTitle{
+    height: 27px;
+    position: absolute;
+    color: white;
+    bottom: 80px;
+    left: 8px;
+    cursor: pointer;
+    background: #4747ec;
+    width: 60px;
+    text-align: center;
+}
+@media(max-width:768px){
+    .webdev .card{
+       margin-top: .5rem;
+       margin-bottom: .5rem;
+    } 
+    
+    .webdev{
+        margin-top: 58px;
+    }
+}

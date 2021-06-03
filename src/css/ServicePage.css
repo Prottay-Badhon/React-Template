@@ -1,0 +1,27 @@
+.servicePage .card{
+    text-align: center;
+    padding: 1rem;
+    height: 25rem;
+    border-radius: 0%;
+    border: none;
+
+}
+.servicePage .card .card-text{
+    font-size: 20px;
+}
+.servicePage .card:hover{
+
+    background: rgb(211, 211, 4);
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+}
+.servicePage .fad, .servicePage .fal, .servicePage .fas, .servicePage .far , .servicePage .fab{
+   font-size: 80px;
+   color: rgb(240, 89, 2);
+}
+@media(max-width: 768px){
+   .servicePage .card{
+    margin-top: 20px;
+} 
+}

@@ -1,0 +1,121 @@
+.footer{
+    width: 100%;
+    height:100%;
+    margin-top: 162px;
+    background: black;
+    color:white;
+    margin-bottom: 0px;
+
+}
+
+
+
+.footerContent2 li{
+    list-style: none;
+}
+@media(max-width:576px){
+    .footerContent2 .col-lg-3{
+        width: 50%;
+        font-size: 14px;
+
+    }
+    .footerContent2 h3{
+        font-size: 22px;
+    }
+}
+@media(max-width:387px){
+    .footerContent2 .col-lg-3{
+        font-size: 12px;
+    }
+    .footerContent2 h3{
+        font-size: 20px;
+    }
+    .footerContent1 .btn-subscribe{
+        width: 100px;
+        right: 50px;
+        top: 50px;
+    }
+}
+@media(max-width:766px){
+    .footer{  
+        margin-top: 0px;
+    }
+}
+@media(min-width:766px){
+    .footer{
+        margin-top: 0px;
+        
+    }
+}
+.footer_social_icon .fa{
+    padding: 10px;
+    font-size: 30px;
+    color:white;
+    background: #17232d;
+    border-radius: 100%;
+    margin: 5px;
+    cursor: pointer;
+}
+.footer_social_icon li{
+    list-style: none;
+    display: inline;
+    color:white
+
+}
+.footer_social_icon .fa:hover{
+   
+    background: #236ca8;
+    border-radius: 100%;
+   
+}
+.footer_social_icon .fa-youtube:hover{
+    background:rgb(255, 255, 255);
+    color: #ff0000;
+   
+}
+.footer_social_icon .fa-instagram:hover{
+    background:rgb(255, 255, 255);
+    color: #ff0000;
+    font-weight: bold;
+}
+@media(max-width:576px){
+    .footerContent1 .input-group{
+        position: relative;
+    }
+    .footerContent1 .form .btn-subscribe{
+        position: absolute;
+        top:50px;
+        width:100%;
+        left:0 ;
+
+    }
+    .footerContent2{
+        margin-top: 6rem;
+    }
+}
+@media(min-width:576px){
+    .footerContent2{
+        margin-top: 3rem;
+    }
+}
+.footer{
+    position: relative;
+     display: flex;
+    justify-content: center;
+}
+.footer .up_button{
+    position: absolute;
+    top: -16px;
+    background: black;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    cursor: pointer;
+}
+.footer .up_button .fa-angle-up{
+    font-size: 40px;
+    padding-top: 0;
+}

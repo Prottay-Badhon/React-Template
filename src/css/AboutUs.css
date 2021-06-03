@@ -1,0 +1,24 @@
+.aboutUs img{
+    height: 180px;
+    width: 180px;
+}
+.aboutUs .social_icon div{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin: 5px;
+    background: #777676;
+    color: white;
+}
+.aboutUs .social_icon .fa{
+    margin-top: 5px;
+    font-size: 20px;
+}
+.aboutUs .social_icon div:hover{
+    background: #3c3a3a;
+    cursor: pointer;
+    transition: 1s;
+}
+svg{
+    font-size: 100px
+}

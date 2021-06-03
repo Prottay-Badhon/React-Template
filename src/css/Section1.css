@@ -1,0 +1,37 @@
+.section1Content{
+    text-align: center;
+   
+}
+
+.section1Content .contentDiv{
+    position: absolute;
+    color:white;
+    
+}
+@media(max-width:766px){
+    .section1Content img{
+        height: 399px;
+        width: 100%;
+
+    }
+    button.WATCH_TRAILER {
+        position: absolute;
+        top: 120px;
+        left: 36px;
+        width:179px
+    }
+    .section1Content .GET_STARTED{
+        background: transparent;
+        color:white;
+        width:179px
+       
+    
+    }
+}
+@media(min-width:766px){
+    .section1Content img{
+        height: 560px;
+        width: 100%;
+    }
+   
+}

@@ -1,0 +1,14 @@
+.ourservice .fa{
+    height: 70px;
+    width: 70px;
+
+}
+.media-body a{
+    text-decoration: none;
+    color:turquoise;
+    opacity: .7;
+}
+.media-body a:hover{
+    text-decoration: none;
+    opacity: 1.5;
+}

@@ -1,0 +1,38 @@
+.contactUs  input,.contactUs textarea{
+    border: none;
+border-bottom: 1px solid rgb(226, 223, 223);
+border-radius: 0%;
+outline: none;
+width: 100%;
+padding-top: 5px;
+padding-bottom: 7px;
+
+}
+
+.contactUs textarea:focus, .contactUs input:focus{
+    border: none;
+border-bottom: 1px solid rgb(238, 217, 150);
+border-radius: 0%;
+outline: none;
+width: 100%;
+}
+.contactUs .map_row{
+    height: 700px;
+}
+
+@media(max-width: 768px){
+    .contactUs .map_row{
+        height: 400px;
+    }
+}
+.contactUs .contactForm button{
+    background: rgb(202, 206, 8);
+    border: none;
+    padding-left: .7rem;
+    padding-right: .7rem;
+    color: white;
+    font-size: 14px;
+    padding: 1rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
